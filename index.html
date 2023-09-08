@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Stage One Task</title>
+  </head>
+  <body>
+    <h1 class="header"> Personal and  <span>real-time</span> data attributes. </h1>
+    <div class="home">
+      <div>
+        <div class="personal-attributes">
+          <h2 class="username" data-testid="slackUserName">Oluwasemilogo</h2>
+          <p class="track" data-testid="myTrack">Frontend Track</p>
+          <Button class="github-btn">
+            <a
+              href="https://github.com/Oluwasemilogo/hng-stage-one"
+              data-testid="githubURL"
+            >
+              Github Link
+            </a>
+          </Button>
+        </div>
+        <div class="current-info">
+          <p>Current day of the week:</p>
+          <p id="currentDay" data-testid="currentDayOfTheWeek"></p>
+        </div>
+        <div class="current-info">
+          <p>Current UTC Time:</p>
+          <p id="currentUTCTime" data-testid="currentUTCTime"></p>
+        </div>
+      </div>
+
+      <div>
+        <img
+          src="./profile-pic.jpeg"
+          alt="Oluwasemilogo"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
